@@ -1,0 +1,36 @@
+{
+    "name": "@rushughes/shadcn-vue-multiselect",
+    "version": "1.0.0",
+    "description": "A modern, animated, slot-based Vue 3 multiselect component with headless & ShadCN styling.",
+    "main": "dist/index.js",
+    "module": "dist/index.es.js",
+    "types": "dist/index.d.ts",
+    "files": [
+        "dist"
+    ],
+    "scripts": {
+        "dev": "vite --config demo/vite.config.ts",
+        "build": "vite build --config demo/vite.config.ts",
+        "preview": "vite preview --config demo/vite.config.ts",
+        "deploy": "npm run build && npx gh-pages -d dist"
+    },
+    "keywords": [
+        "vue",
+        "vue3",
+        "multiselect",
+        "dropdown",
+        "shadcn",
+        "headless",
+        "popover",
+        "command",
+        "select",
+        "input"
+    ],
+    "peerDependencies": {
+        "vue": "^3.3.0"
+    },
+    "license": "MIT",
+    "devDependencies": {
+        "gh-pages": "^6.3.0"
+    }
+}
